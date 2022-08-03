@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/t"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Barrier
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-1dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/picture12" />
+
+    <View
+        android:layout_width="4dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="119dp"
+        android:background="@color/blue" />
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="22sp"
+        android:layout_marginTop="135dp"
+        android:text="Hello,welcome to"
+        android:textColor="@color/blue"
+        android:textSize="37sp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="165dp"
+        android:text="Ehsan"
+        android:textColor="@color/blue"
+        android:textSize="38sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22sp"
+        android:layout_marginTop="210dp"
+        android:text="This service allows you to donate through Ehsan in a variety of fields: "
+        android:textColor="@color/blue"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="310dp"
+        android:text="\u2022health"
+        android:textColor="@color/ll"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="340dp"
+        android:text="\u2022educational"
+        android:textColor="@color/ll"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="370dp"
+        android:text="\u2022social"
+        android:textColor="@color/ll"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="212dp"
+        android:layout_height="212dp"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="400dp"
+        android:text="\u2022relief"
+        android:textColor="@color/ll"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30sp"
+        android:layout_marginTop="430dp"
+        android:text="\u2022environmenta"
+        android:textColor="@color/ll"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="57dp"
+        android:layout_height="238dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="-43dp"
+        android:tint="@color/blue"
+        app:srcCompat="@android:drawable/ic_menu_mylocation" />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+    android:text="Riyadh"
+    android:textColor="@color/ll"
+    android:textSize="26sp"
+    android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="111dp"
+        android:text="@string/ae"
+        android:textColor="@color/ll"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="-114dp"
+        android:tint="@color/blue"
+        app:srcCompat="@drawable/picture1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="245dp"
+        android:layout_marginBottom="60dp"
+        android:text="@EhsanSA"
+        android:textColor="@color/ll"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="245dp"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:text=""
+        android:textColor="@color/ll"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="30dp"
+        android:layout_height="238dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="-96dp"
+        android:tint="@color/blue"
+        app:srcCompat="@drawable/copy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="76sp"
+        android:layout_marginBottom="9dp"
+        android:text="2022 Ehsan.All rights reserved."
+        android:textColor="@color/ll"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</RelativeLayout>
